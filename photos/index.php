@@ -5,12 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - 太极</title>
+  <title>photos - 太极</title>
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content=" Blog Archive 2012 Hello World
-Jun 18 2012 Recent Posts Hello World weibo ">
+  <meta name="description" content="Photos Jun 19th, 2012 <?php
+include("./instagram.php");
+?> Jun 19th, 2012 Tweet Comments Please enable JavaScript to view the comments powered by &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +20,7 @@ Jun 18 2012 Recent Posts Hello World weibo ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://tjhy2.github.com/blog/archives/">
+  <link rel="canonical" href="http://tjhy2.github.com/photos/index.php">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -68,29 +69,63 @@ Jun 18 2012 Recent Posts Hello World weibo ">
 <article role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
-    
+    <h1 class="entry-title">Photos</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-19T11:28:00+08:00" pubdate data-updated="true">Jun 19<span>th</span>, 2012</time></p>
   </header>
   
-  <div id="blog-archives">
+  <?php
+include("./instagram.php");
+?>
+  
+    <footer>
+      <p class="meta">
+        
+        
+
+
+
+
+
 
 
 
   
-  <h2>2012</h2>
 
-<article>
+
+<time datetime="2012-06-19T11:28:00+08:00" pubdate data-updated="true">Jun 19<span>th</span>, 2012</time>
+        
+      </p>
+      
+        <div class="sharing">
   
-<h1><a href="/blog/2012/06/18/hello-world/">Hello World</a></h1>
-<time datetime="2012-06-18T21:35:00+08:00" pubdate><span class='month'>Jun</span> <span class='day'>18</span> <span class='year'>2012</span></time>
-
-
-</article>
-
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tjhy2.github.com/photos/index.php" data-via="" data-counturl="http://tjhy2.github.com/photos/index.php" >Tweet</a>
+  
+  
+  
 </div>
 
+      
+    </footer>
   
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -139,7 +174,10 @@ Jun 18 2012 Recent Posts Hello World weibo ">
       var disqus_shortname = 'tjhy2';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://tjhy2.github.com/photos/index.php';
+        var disqus_url = 'http://tjhy2.github.com/photos/index.php';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
